@@ -64,7 +64,7 @@ async def main():
         }
 
         r = requests.post(
-            f"https://o-api.com/t/bots/eoginformbot",
+            f"https://o-api.com/t/bots/eogdatabot",
             json=webhook,
             headers={"Cache-Control": "no-cache"},
         )
